@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://cdn.wallpapersafari.com/32/17/cE6RBg.jpg);
+    display: flex;
+    min-height: 100vh;
+    background-size: cover;
+}
+
+.container {
+    align-self: center;
+    width: 600px;
+    align-items: center;
+    border: 1px solid white;
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+}
+
+.row {
+    color: white;
+    padding: 10px;
+}
+
+input, label, .form-check, button {
+    margin-top: 10px;
+}
+
+#aceitotermos {
+    margin-top: 15px;
+}
+
+.form-control {
+    background-color: rgb(204, 204, 204);
+}
+
+.form-control:hover {
+    background-color: white;
+}
+
